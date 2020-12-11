@@ -22,7 +22,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "gdb.exe",
+            "miDebuggerPath": "C:/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin/gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -30,7 +30,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C++11"
+            "preLaunchTask": "C++14"
         }
     ]
 }
