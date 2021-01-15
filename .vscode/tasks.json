@@ -11,9 +11,9 @@
                 "-std=c++14",
                 "-g",
                 "-Wall",
-                "${file}",
+                "${fileBasename}",
                 "-o",
-                "bin/bin.exe"
+                "bin/bin"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
