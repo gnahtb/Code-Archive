@@ -11,7 +11,7 @@
                 "-std=c++14",
                 "-g",
                 "-Wall",
-                "${file}",
+                "${relativeFile}",
                 "-o",
                 "bin/bin"
             ],
