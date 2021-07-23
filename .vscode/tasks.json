@@ -1,19 +1,17 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
             "label": "C++14",
             "type": "shell",
-            "command": "g++",
+            "command": "C:/msys64/mingw64/bin/g++.exe",
             "args": [
                 "-std=c++14",
                 "-g",
                 "-Wall",
                 "${relativeFile}",
                 "-o",
-                "bin/bin"
+                "bin/bin.exe"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
