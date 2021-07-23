@@ -5,10 +5,10 @@
             "name": "g++ build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/bin",
+            "program": "${workspaceRoot}/bin/bin.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/bin",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
@@ -20,7 +20,7 @@
                 }
             ],
             "preLaunchTask": "C++14",
-            "miDebuggerPath": "/usr/bin/gdb"
+            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe"
         },
         {
             "name": "Python: Current File",
