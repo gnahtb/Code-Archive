@@ -2,25 +2,22 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "C++14",
+            "label": "Build with C++ 14",
             "type": "shell",
-            "command": "C:/msys64/mingw64/bin/g++.exe",
+            "command": "/usr/bin/g++",
             "args": [
                 "-std=c++14",
                 "-g",
                 "-Wall",
                 "${relativeFile}",
                 "-o",
-                "bin/bin.exe"
+                "bin/bin"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher":"$gcc"
+            "group": "build",
+            "problemMatcher": "$gcc"
         },
         {
             "label": "Run binary file",

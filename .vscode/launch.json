@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++ build and debug active file",
+            "name": "Build and Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/bin/bin.exe",
+            "program": "${workspaceRoot}/bin/bin",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/bin",
@@ -19,15 +19,8 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C++14",
-            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe"
-        },
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
+            "preLaunchTask": "Build with C++ 14",
+            "miDebuggerPath": "/usr/bin/gdb"
         }
     ]
 }
